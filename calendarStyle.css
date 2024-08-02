@@ -1,0 +1,59 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.calendar-container {
+    display: flex;
+}
+.month {
+    background-color: #fff;
+    margin: 10px;
+    overflow: hidden;
+    width: 500px;
+}
+.month h2 {
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 4em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+}
+th {
+    background-color: #f3f3f3;
+    font-size: 2em;
+}
+.prev-month, .next-month {
+    color: #c5c4c4;
+    font-size: 1.5em;
+}
+.current-month {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px;
+    background-color: #c0c0c0;
+    padding: 5px;
+    display: inline-block;
+    font-size: 1.5em;
+}
+.highlight {
+    border: 2px solid rgb(181, 27, 27);
+    box-sizing: border-box;
+}
